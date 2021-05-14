@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Libraries\dotNetRDF.Data.DataTables\dotNetRDF.Data.DataTables.csproj" />
+    <ProjectReference Include="..\Libraries\dotNetRDF.Data.Virtuoso\dotNetRDF.Data.Virtuoso.csproj" />
+    <ProjectReference Include="..\Libraries\dotNetRDF.Query.FullText\dotNetRDF.Query.FullText.csproj" />
+    <ProjectReference Include="..\Libraries\dotNetRDF.Query.Spin\dotNetRDF.Query.Spin.csproj" />
+    <ProjectReference Include="..\Libraries\dotNetRDF.Web\dotNetRDF.Web.csproj" />
+    <ProjectReference Include="..\Libraries\dotNetRDF\dotNetRDF.csproj" />
+    <ProjectReference Include="..\Testing\dotNetRDF.MockServerTests\dotNetRDF.MockServerTests.csproj" />
+  </ItemGroup>
+
+</Project>
